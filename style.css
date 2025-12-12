@@ -134,3 +134,77 @@ footer a{
 footer a:hover{
     color: var(--white);
 }
+
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+        max-width: 375px;
+    }   
+    .profile-image img{
+        width: 80px;
+        height: 80px;
+    }
+    .profile-info h1{
+        font-size: 24px;
+    }
+    .profile-info p{
+        font-size: 14px;
+    }
+    .profile-description{
+        font-size: 14px;
+    }
+    .profile-link{
+        font-size: 14px;
+    }
+    .profile-link:hover{
+        color: var(--white);
+    }
+}
+@media (max-width: 375px){
+    main{
+        height: 100%;
+        padding: 20px;
+    }
+    .container{
+        width: 100%;
+        
+        margin-bottom: 50px;
+        margin-top: 50px;
+        
+     
+   
+  
+     
+     
+    }
+    .profile-image img{
+        width: 70px;
+        height: 70px;
+    }
+    .profile-info h1{
+        font-size: 22px;
+    }
+    .profile-info p{
+        font-size: 13px;
+    }
+    .profile-description{
+        font-size: 13px;
+    }
+    .profile-link{
+        font-size: 13px;
+        width: 90%;
+        gap: 1px !important;
+    }
+    .profile-link:hover{
+        color: var(--white);
+    }
+    footer{
+       display: none;
+    }
+    footer a{
+        font-size: 12px;
+    }
+    footer a:hover{
+        color: var(--white);
+    }
+}
